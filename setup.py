@@ -26,7 +26,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="salesforce-python-toolkit",
-    version='0.1.6',
+    version='0.2.0',
     description="",
     long_description="",
     author="David Lanstein",
@@ -34,7 +34,7 @@ setup(
     url="http://code.google.com/p/salesforce-python-toolkit/",
     download_url="http://code.google.com/p/salesforce-python-toolkit/downloads/list",
     platforms=['any'],
-    install_requires=['suds-jurko'],
+    install_requires=['suds-jurko', 'future'],
 
     license="LGPL",
     packages=find_packages('.'),
@@ -44,5 +44,8 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',
         'Intended Audience :: Information Technology',
-        'Programming Language :: Python'],
-    )
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.5',
+    ],
+)

@@ -1,4 +1,8 @@
 *.pyc
 *.pyo
+salesforce_python_toolkit.egg-info
 
 .tox/
+
+.idea
+.ropeproject
